@@ -1,11 +1,18 @@
-## composer install
-## npm i
-## npm run dev
-## copy.env.env.example
-## database pdf in project(design implementation completed)
-## admin panel (update, store, delete)
-## frontend + admin panel
-## eaindra moet moet aung 
+#1 composer install
+#2 npm i
+#3 npm run dev
+#4 copy.env.env.example
+#5 database pdf in project(design implementation completed)
+#6 admin panel (update, store, delete)
+#7 frontend + admin panel
+#8 eaindra moet moet aung
+
+next target
+*to add cart 
+*to collect sale
+*print out the sale 
+*pie chart and flow chart  💪  💪  💪 
+ 👩🏼‍💻  👩🏼‍💻  👩🏼‍💻  😇  😇  😇  😊  😊  😊 
 
 
 
