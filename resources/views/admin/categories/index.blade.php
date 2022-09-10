@@ -6,14 +6,11 @@
     </x-slot>
 
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-          
-        
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">       
          <div class="flex justify-end m-2 p-2">
             <a href="{{ route('admin.categories.create') }}" class="px-4 py-2 bg-indigo-400 hover:bg-indigo-600 rounded-lg">Add New</a>
          </div>
-
-
+         
             <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -29,9 +26,7 @@
                             <th scope="col" class="py-3 px-6">
                                Description
                             </th>
-                            <!-- <th scope="col" class="py-3 px-6">
-                                Price
-                            </th> -->
+                            
                             <th scope="col" class="py-3 px-6">
                                 Action
                             </th>
@@ -46,6 +41,7 @@
                         </td>
                         <td scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                              <img src="{{ Storage::url($category->image) }}" class="w-16 h-16 rounded"  alt="">
+                             <!-- route('asset("storage/app/public/image/$post->image")') -->
                         </td>
                         <td scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                              {{ $category->description }}

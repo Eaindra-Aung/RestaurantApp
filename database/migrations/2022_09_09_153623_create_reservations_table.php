@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('email');
             $table->string('phone');
             $table->dateTime('date');
-            $table->unsignedBigInteger('table_id');
-            $table->integer('guest_number');
+            $table->unsignedBigInteger('table_id'); //foreignid of user
+            $table->integer('guest_number');//foreignid of table
             $table->timestamps();
         });
     }

@@ -19,8 +19,7 @@
                             
                        @csrf
                        @method('PUT')
-                       <!-- method="POST"  -->
-                       
+                       <!-- method="POST"  -->                 
                             <div class="sm:col-span-6 pt-5 mt-3">
                                 <label for="title" class="block text-sm font-medium text-gray-700">Name</label>
                                <div class="mt-1">

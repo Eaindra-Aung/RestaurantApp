@@ -1,19 +1,15 @@
 <x-admin-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Categories') }}
+            {{ __('Menu') }}
         </h2>
     </x-slot>
 
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-          
-        
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">      
          <div class="flex justify-end m-2 p-2">
             <a href="{{ route('admin.menus.create') }}" class="px-4 py-2 bg-indigo-400 hover:bg-indigo-600 rounded-lg">Add New</a>
          </div>
-
-
             <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -21,13 +17,14 @@
                             <th scope="col" class="py-3 px-6">
                                 Name
                             </th>
-                            <th scope="colImage Color
-                            </th>
                             <th scope="col" class="py-3 px-6">
-                               Description
+                               Image
                             </th>
                             <th scope="col" class="py-3 px-6">
                                 Price
+                            </th>
+                            <th scope="col" class="py-3 px-6">
+                               Description
                             </th>
                             <th scope="col" class="py-3 px-6">
                                 Action

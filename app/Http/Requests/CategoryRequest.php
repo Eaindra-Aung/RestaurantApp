@@ -25,7 +25,6 @@ class CategoryRequest extends FormRequest
     {
         return [
              //validation
-
              'name' => ['required'],
              'image' => ['required', 'image'],
              'description' => ['required']
