@@ -4,7 +4,8 @@
 #4 copy.env.env.example
 #5 database pdf in project(design implementation completed)
 #6 admin panel (update, store, delete)
-#7 frontend + admin panel
+#7 frontend + admin panel 
+# admin panel-> zaw@gmail.com ,11111111
 #8 eaindra moet moet aung
 
 next target
